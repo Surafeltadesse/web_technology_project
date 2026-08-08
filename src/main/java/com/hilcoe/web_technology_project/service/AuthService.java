@@ -1,4 +1,4 @@
-package com.surafel.event_and_guest_managment_system.service;
+package com.hilcoe.web_technology_project
 
 import com.surafel.event_and_guest_managment_system.dto.request.LoginRequest;
 import com.surafel.event_and_guest_managment_system.dto.request.RegisterRequest;
