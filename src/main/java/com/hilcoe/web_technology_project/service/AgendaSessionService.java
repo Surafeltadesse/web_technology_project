@@ -1,13 +1,13 @@
-package com.hilcoe.web_technology_project
+package com.hilcoe.web_technology_project.service;
 
-import com.surafel.event_and_guest_managment_system.dto.request.AgendaSessionRequest;
-import com.surafel.event_and_guest_managment_system.dto.response.AgendaSessionResponse;
-import com.surafel.event_and_guest_managment_system.entity.AgendaSession;
-import com.surafel.event_and_guest_managment_system.entity.Event;
-import com.surafel.event_and_guest_managment_system.entity.EventType;
-import com.surafel.event_and_guest_managment_system.exception.InvalidOperationException;
-import com.surafel.event_and_guest_managment_system.exception.ResourceNotFoundException;
-import com.surafel.event_and_guest_managment_system.repository.AgendaSessionRepository;
+import com.hilcoe.web_technology_project.dto.request.AgendaSessionRequest;
+import com.hilcoe.web_technology_project.dto.response.AgendaSessionResponse;
+import com.hilcoe.web_technology_project.entity.AgendaSession;
+import com.hilcoe.web_technology_project.entity.Event;
+import com.hilcoe.web_technology_project.entity.EventType;
+import com.hilcoe.web_technology_project.InvalidOperationException;
+import com.hilcoe.web_technology_project.ResourceNotFoundException;
+import com.hilcoe.web_technology_project.repository.AgendaSessionRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
