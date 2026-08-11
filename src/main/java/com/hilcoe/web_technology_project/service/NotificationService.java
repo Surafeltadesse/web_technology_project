@@ -1,7 +1,12 @@
 package com.hilcoe.web_technology_project.service;
+<<<<<<< HEAD
 
 import com.hilcoe.web_technology_project.entity.*;
 import com.hilcoe.web_technology_project.repository.NotificationRepository
+=======
+import com.hilcoe.web_technology_project.entity.*;
+import com.hilcoe.web_technology_project.repository.NotificationRepository;
+>>>>>>> Michael
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -77,4 +82,8 @@ public class NotificationService {
         return notificationRepository.findByEventId(eventId);
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> Michael
