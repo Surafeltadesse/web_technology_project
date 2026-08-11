@@ -1,13 +1,13 @@
-package com.hilcoe.web_technology_project
+package com.hilcoe.web_technology_project.service;
 
-import com.surafel.event_and_guest_managment_system.dto.request.LoginRequest;
-import com.surafel.event_and_guest_managment_system.dto.request.RegisterRequest;
-import com.surafel.event_and_guest_managment_system.dto.response.AuthResponse;
-import com.surafel.event_and_guest_managment_system.entity.Role;
-import com.surafel.event_and_guest_managment_system.entity.User;
-import com.surafel.event_and_guest_managment_system.exception.DuplicateResourceException;
-import com.surafel.event_and_guest_managment_system.repository.UserRepository;
-import com.surafel.event_and_guest_managment_system.security.jwt.JwtUtil;
+import com.hilcoe.web_technology_project.dto.request.LoginRequest;
+import com.hilcoe.web_technology_project.dto.request.RegisterRequest;
+import com.hilcoe.web_technology_project.dto.response.AuthResponse;
+import com.hilcoe.web_technology_project.entity.Role;
+import com.hilcoe.web_technology_project.entity.User;
+import com.hilcoe.web_technology_project.exception.DuplicateResourceException;
+import com.hilcoe.web_technology_project.repository.UserRepository;
+import com.hilcoe.web_technology_project.security.jwt.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

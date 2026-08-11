@@ -1,7 +1,7 @@
 package com.hilcoe.web_technology_project.controller;
 
-import com.surafel.event_and_guest_managment_system.dto.request.LoginRequest;
-import com.surafel.event_and_guest_managment_system.dto.request.RegisterRequest;
+import com.hilcoe.web_technology_project.dto.request.LoginRequest;
+import com.hilcoe.web_technology_project.dto.request.RegisterRequest;
 import com.surafel.event_and_guest_managment_system.dto.response.ApiResponse;
 import com.surafel.event_and_guest_managment_system.dto.response.AuthResponse;
 import com.surafel.event_and_guest_managment_system.service.AuthService;
