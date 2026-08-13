@@ -11,7 +11,6 @@ import com.hilcoe.web_technology_project.entity.InvitationStatus;
 import com.hilcoe.web_technology_project.exception.DuplicateResourceException;
 import com.hilcoe.web_technology_project.exception.ResourceNotFoundException;
 import com.hilcoe.web_technology_project.exception.InvalidOperationException;
-import com.hilcoe.web_technology_project.exception.ResourceNotFoundException;
 import com.hilcoe.web_technology_project.repository.InvitationRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -24,9 +23,9 @@ import java.util.List;
 @RequiredArgsConstructor
 public class InvitationService {
     private final InvitationRepository invitationRepository;
-    private final com.surafel.event_and_guest_managment_system.service.EventService eventService;
-    private final com.surafel.event_and_guest_managment_system.service.GuestService guestService;
-    private final NotificationService notificationService;
+    private final EventService eventService;
+    private final EventService guestService;
+    private final EventService notificationService;
 
     @Transactional
     public InvitationResponse create(InvitationRequest request) {

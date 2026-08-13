@@ -1,12 +1,12 @@
-package com.surafel.event_and_guest_managment_system.service;
+package com.hilcoe.web_technology_project.service;
 
-import com.surafel.event_and_guest_managment_system.dto.request.GuestRequest;
-import com.surafel.event_and_guest_managment_system.dto.response.GuestResponse;
-import com.surafel.event_and_guest_managment_system.entity.Guest;
-import com.surafel.event_and_guest_managment_system.exception.DuplicateResourceException;
-import com.surafel.event_and_guest_managment_system.exception.ResourceNotFoundException;
-import com.surafel.event_and_guest_managment_system.repository.GuestRepository;
-import com.surafel.event_and_guest_managment_system.repository.UserRepository;
+import com.hilcoe.web_technology_project.dto.request.GuestRequest;
+import com.hilcoe.web_technology_project.dto.response.GuestResponse;
+import com.hilcoe.web_technology_project.entity.Guest;
+import com.hilcoe.web_technology_project.exception.DuplicateResourceException;
+import com.hilcoe.web_technology_project.exception.ResourceNotFoundException;
+import com.hilcoe.web_technology_project.repository.GuestRepository;
+import com.hilcoe.web_technology_project.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

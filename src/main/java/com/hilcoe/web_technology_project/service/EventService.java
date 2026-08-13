@@ -1,14 +1,14 @@
-package com.surafel.event_and_guest_managment_system.service;
+package com.hilcoe.web_technology_project.service;
 
-import com.surafel.event_and_guest_managment_system.dto.request.EventRequest;
-import com.surafel.event_and_guest_managment_system.dto.response.EventResponse;
-import com.surafel.event_and_guest_managment_system.dto.response.UserResponse;
-import com.surafel.event_and_guest_managment_system.entity.*;
-import com.surafel.event_and_guest_managment_system.exception.InvalidOperationException;
-import com.surafel.event_and_guest_managment_system.exception.ResourceNotFoundException;
-import com.surafel.event_and_guest_managment_system.exception.UnauthorizedAccessException;
-import com.surafel.event_and_guest_managment_system.repository.EventRepository;
-import com.surafel.event_and_guest_managment_system.repository.UserRepository;
+import com.hilcoe.web_technology_project.dto.request.EventRequest;
+import com.hilcoe.web_technology_project.dto.response.EventResponse;
+import com.hilcoe.web_technology_project.dto.response.UserResponse;
+import com.hilcoe.web_technology_project.entity.*;
+import com.hilcoe.web_technology_project.exception.InvalidOperationException;
+import com.hilcoe.web_technology_project.exception.ResourceNotFoundException;
+import com.hilcoe.web_technology_project.exception.UnauthorizedAccessException;
+import com.hilcoe.web_technology_project.repository.EventRepository;
+import com.hilcoe.web_technology_project.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
