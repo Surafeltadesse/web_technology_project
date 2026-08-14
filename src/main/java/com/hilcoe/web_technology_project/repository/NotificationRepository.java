@@ -1,7 +1,7 @@
 package com.hilcoe.web_technology_project.repository;
 
-import com.surafel.event_and_guest_managment_system.entity.Notification;
-import com.surafel.event_and_guest_managment_system.entity.NotificationType;
+import com.hilcoe.web_technology_project.entity.Notification;
+import com.hilcoe.web_technology_project.entity.NotificationType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

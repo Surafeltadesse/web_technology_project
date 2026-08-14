@@ -9,6 +9,7 @@ import com.hilcoe.web_technology_project.entity.Guest;
 import com.hilcoe.web_technology_project.entity.Invitation;
 import com.hilcoe.web_technology_project.entity.InvitationStatus;
 import com.hilcoe.web_technology_project.exception.DuplicateResourceException;
+import com.hilcoe.web_technology_project.exception.EventFullException;
 import com.hilcoe.web_technology_project.exception.ResourceNotFoundException;
 import com.hilcoe.web_technology_project.exception.InvalidOperationException;
 import com.hilcoe.web_technology_project.repository.InvitationRepository;
@@ -24,8 +25,8 @@ import java.util.List;
 public class InvitationService {
     private final InvitationRepository invitationRepository;
     private final EventService eventService;
-    private final EventService guestService;
-    private final EventService notificationService;
+    private final GuestService guestService;
+    private final NotificationService notificationService;
 
     @Transactional
     public InvitationResponse create(InvitationRequest request) {
@@ -38,7 +39,7 @@ public class InvitationService {
         // check capacity
         long confirmed = invitationRepository.countConfirmedByEventId(event.getId());
         if (confirmed >= event.getVenue().getCapacity()) {
-            throw new EventFullException("Event venue is at full capacity");
+            throw new   EventFullException("Event venue is at full capacity");
         }
 
         Invitation invitation = Invitation.builder()

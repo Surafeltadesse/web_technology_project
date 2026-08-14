@@ -1,9 +1,9 @@
 package com.hilcoe.web_technology_project.controller;
 
-import com.surafel.event_and_guest_managment_system.dto.request.VenueRequest;
-import com.surafel.event_and_guest_managment_system.dto.response.ApiResponse;
-import com.surafel.event_and_guest_managment_system.dto.response.VenueResponse;
-import com.surafel.event_and_guest_managment_system.service.VenueService;
+import com.hilcoe.web_technology_project.dto.request.VenueRequest;
+import com.hilcoe.web_technology_project.dto.response.ApiResponse;
+import com.hilcoe.web_technology_project.dto.response.VenueResponse;
+import com.hilcoe.web_technology_project.service.VenueService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

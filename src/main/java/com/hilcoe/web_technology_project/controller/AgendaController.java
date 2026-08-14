@@ -1,9 +1,9 @@
 package com.hilcoe.web_technology_project.controller;
 
-import com.surafel.event_and_guest_managment_system.dto.request.AgendaSessionRequest;
-import com.surafel.event_and_guest_managment_system.dto.response.AgendaSessionResponse;
-import com.surafel.event_and_guest_managment_system.dto.response.ApiResponse;
-import com.surafel.event_and_guest_managment_system.service.AgendaSessionService;
+import com.hilcoe.web_technology_project.dto.request.AgendaSessionRequest;
+import com.hilcoe.web_technology_project.dto.response.AgendaSessionResponse;
+import com.hilcoe.web_technology_project.dto.response.ApiResponse;
+import com.hilcoe.web_technology_project.service.AgendaSessionService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,7 @@
 package com.hilcoe.web_technology_project.repository;
 
-import com.surafel.event_and_guest_managment_system.entity.Invitation;
-import com.surafel.event_and_guest_managment_system.entity.InvitationStatus;
+import com.hilcoe.web_technology_project.entity.Invitation;
+import com.hilcoe.web_technology_project.entity.InvitationStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

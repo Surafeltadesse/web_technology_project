@@ -1,6 +1,6 @@
 package com.hilcoe.web_technology_project.repository;
 
-import com.surafel.event_and_guest_managment_system.entity.Guest;
+import com.hilcoe.web_technology_project.entity.Guest;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

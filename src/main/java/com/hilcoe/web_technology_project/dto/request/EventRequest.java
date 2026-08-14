@@ -1,6 +1,6 @@
 package com.hilcoe.web_technology_project.dto.request;
 
-import com.surafel.event_and_guest_managment_system.entity.EventType;
+import com.hilcoe.web_technology_project.entity.EventType;
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

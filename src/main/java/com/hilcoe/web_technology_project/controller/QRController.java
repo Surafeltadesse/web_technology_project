@@ -1,11 +1,11 @@
 package com.hilcoe.web_technology_project.controller;
 
-import com.surafel.event_and_guest_managment_system.dto.request.ScanRequest;
-import com.surafel.event_and_guest_managment_system.dto.response.ApiResponse;
-import com.surafel.event_and_guest_managment_system.dto.response.CheckInResponse;
-import com.surafel.event_and_guest_managment_system.dto.response.QRTokenResponse;
-import com.surafel.event_and_guest_managment_system.entity.User;
-import com.surafel.event_and_guest_managment_system.service.QRService;
+import com.hilcoe.web_technology_project.dto.request.ScanRequest;
+import com.hilcoe.web_technology_project.dto.response.ApiResponse;
+import com.hilcoe.web_technology_project.dto.response.CheckInResponse;
+import com.hilcoe.web_technology_project.dto.response.QRTokenResponse;
+import com.hilcoe.web_technology_project.entity.User;
+import com.hilcoe.web_technology_project.service.QRService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

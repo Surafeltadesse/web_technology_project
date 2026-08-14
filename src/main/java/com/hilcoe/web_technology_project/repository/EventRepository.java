@@ -1,8 +1,8 @@
 package com.hilcoe.web_technology_project.repository;
 
-import com.surafel.event_and_guest_managment_system.entity.Event;
-import com.surafel.event_and_guest_managment_system.entity.EventStatus;
-import com.surafel.event_and_guest_managment_system.entity.EventType;
+import com.hilcoe.web_technology_project.entity.Event;
+import com.hilcoe.web_technology_project.entity.EventStatus;
+import com.hilcoe.web_technology_project.entity.EventType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

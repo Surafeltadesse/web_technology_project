@@ -77,5 +77,6 @@ public class NotificationService {
     public List<Notification> getByEventId(Long eventId) {
         return notificationRepository.findByEventId(eventId);
     }
+}
 
 

@@ -1,5 +1,10 @@
 package com.hilcoe.web_technology_project.controller;
 
+import com.hilcoe.web_technology_project.dto.request.EventRequest;
+import com.hilcoe.web_technology_project.dto.response.ApiResponse;
+import com.hilcoe.web_technology_project.dto.response.EventResponse;
+import com.hilcoe.web_technology_project.entity.EventStatus;
+import com.hilcoe.web_technology_project.service.EventService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -16,7 +21,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class EventController {
 
-    private final com.surafel.event_and_guest_managment_system.service.EventService eventService;
+    private final EventService eventService;
 
     @PostMapping
     @PreAuthorize("hasAnyRole('ADMIN','ORGANIZER')")

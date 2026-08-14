@@ -1,10 +1,10 @@
 package com.hilcoe.web_technology_project.controller;
 
-import com.surafel.event_and_guest_managment_system.dto.request.InvitationRequest;
-import com.surafel.event_and_guest_managment_system.dto.request.RsvpRequest;
-import com.surafel.event_and_guest_managment_system.dto.response.ApiResponse;
-import com.surafel.event_and_guest_managment_system.dto.response.InvitationResponse;
-import com.surafel.event_and_guest_managment_system.service.InvitationService;
+import com.hilcoe.web_technology_project.dto.request.InvitationRequest;
+import com.hilcoe.web_technology_project.dto.request.RsvpRequest;
+import com.hilcoe.web_technology_project.dto.response.ApiResponse;
+import com.hilcoe.web_technology_project.dto.response.InvitationResponse;
+import com.hilcoe.web_technology_project.service.InvitationService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
